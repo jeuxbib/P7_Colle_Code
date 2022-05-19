@@ -14,7 +14,7 @@ const userRoutes = require('./routes/user');
 const postRoutes = require('./routes/post');
 const commentRoutes = require('./routes/comment');
 
-//Connexion base de donnée
+//Connexion base de donnée + 'sequelize': mappage objet-relationnel (ORM)
 const db = require('./models');
 try {
     console.log('Connexion à MySQL réussi !');
