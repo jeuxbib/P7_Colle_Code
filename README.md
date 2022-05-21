@@ -13,7 +13,7 @@
 
 ### Pour lancer et tester l'application :
 
-Clonez le repository github
+Clonez le repository github: https://github.com/jeuxbib/P7_Colle_Code.git
 
 #### Back-end
 
