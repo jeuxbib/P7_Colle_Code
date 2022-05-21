@@ -40,3 +40,22 @@ nodemon server
 ```
 
 3. Le serveur doit fontionner sur http://localhost:3000/
+
+
+#### Front-end
+
+1. Dans le terminal se placer dans le dossier frontend :
+
+Installer les dépendances avec la commande 
+
+```
+npm install
+```
+
+Lancer le server avec la commande
+
+```
+npm run serve
+```
+
+2. Le serveur doit fontionner sur http://localhost:8080/
