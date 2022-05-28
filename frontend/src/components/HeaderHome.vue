@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     height: 60px;
-    background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+    background: linear-gradient(rgb(61, 62, 63) 25%, rgb(159, 162, 164));
     padding: 10px;
     
     img {

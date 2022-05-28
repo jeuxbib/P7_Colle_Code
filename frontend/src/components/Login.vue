@@ -67,9 +67,9 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    gap: 20px;
+    gap: 47px;
     h2 {
-     background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+     background: -webkit-linear-gradient(rgb(61, 62, 63) 25%, rgb(159, 162, 164));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
@@ -113,7 +113,7 @@ form {
         height: 35px;
         border: none;
         border-radius: 10px;
-        background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+        background: -webkit-linear-gradient(rgb(61, 62, 63) 25%, rgb(159, 162, 164));
         cursor: Pointer;
         font-size: 18px;
         font-weight: bold;

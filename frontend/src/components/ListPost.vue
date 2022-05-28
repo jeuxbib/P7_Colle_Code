@@ -245,7 +245,7 @@ export default {
         border-radius: 5px;
         padding: 15px 25px;
         margin: 25px 0;
-        background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         @media screen and (max-width: 450px) {
             padding: 10px;     
         }
@@ -398,7 +398,7 @@ export default {
             &__comment {
                 border-radius: 5px;
                 border: 2px solid white;
-                background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+                background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
                 margin: 10px 20px 0 20px;
                 padding: 10px;
                 @media screen and (max-width: 550px) {
@@ -425,7 +425,7 @@ export default {
                 padding: 8px;
                 flex: 2;
                 #name {
-                    background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+                    background: -webkit-linear-gradient(rgb(61, 62, 63) 25%, rgb(159, 162, 164));
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     font-weight: bold;

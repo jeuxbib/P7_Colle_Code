@@ -116,16 +116,16 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  padding: 20px;
+  padding: 0.2em;
   @media screen and (max-width: 400px) { padding: 20px 5px; }
   #hello {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 18px;
+    font-size: 16px;
     @media screen and (max-width: 450px) {
         font-size: 13px;     
     }
@@ -138,8 +138,8 @@ main {
       display: flex;
       flex-direction: column;
       align-items: center;
-      box-shadow: 1px 1px 6px rgb(75, 163, 231);
-      border-radius: 8px;
+      box-shadow: 1px 1px 9px rgb(23, 24, 25);
+      border-radius: 12px;
       width: 60%;   
       margin: 20px 10px;
       background: white;
@@ -155,7 +155,7 @@ main {
       padding: 15px 25px;
       margin: 25px 0;
       width: 80%;
-      background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
       @media screen and (max-width: 680px) {
         width: 95%;
       }
@@ -227,7 +227,7 @@ main {
       }
     }
     &__post {
-      background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(85, 85, 240));
+      background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, white);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media screen and (max-width: 450px) {

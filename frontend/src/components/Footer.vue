@@ -22,7 +22,7 @@ footer { display: flex;
     justify-content: center; 
     align-items: center; 
     height: 55px;
-    background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+    background: linear-gradient(rgb(61, 62, 63) 25%, rgb(130, 188, 238));
     
     a { 
         text-decoration: none;

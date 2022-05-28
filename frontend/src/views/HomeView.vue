@@ -51,7 +51,7 @@ export default {
 
 <style scoped lang="scss">
 main {
-  padding: 20px;
+  padding: 5.76em;
   @media screen and (max-width: 500px){
       padding: 5px;
     }
@@ -59,8 +59,8 @@ main {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(59, 133, 197));
-    -webkit-background-clip: text;
+    background: rgb(243, 244, 245);
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
     @media screen and (max-width: 500px){
@@ -73,8 +73,8 @@ main {
     justify-content: center;
 
     &__auth {
-      box-shadow: 1px 1px 6px rgb(110, 191, 232);
-      border-radius: 15px;
+      box-shadow: 1px 1px 15px rgb(83, 85, 86);
+      border-radius: 20px;
       width: 400px;   
       padding: 10px;
       margin: 20px 10px;

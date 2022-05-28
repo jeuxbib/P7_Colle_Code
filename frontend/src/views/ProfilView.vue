@@ -145,7 +145,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  padding: 20px;
+  padding: 1.8em;
   @media screen and (max-width: 450px) {
       padding: 20px 0;   
   }
@@ -153,7 +153,7 @@ main {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
@@ -169,7 +169,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        box-shadow: 1px 1px 6px rgb(75, 114, 231);
+        box-shadow: 1px 1px 6px grey;
         border-radius: 8px;
         width: 50%;   
         padding: 15px;
@@ -199,15 +199,15 @@ main {
         }
         #label {
             cursor: pointer;
-            border: 1px dotted #145894;
+            border: 1px dotted #111213;
             padding: 8px;
-            background: rgb(132, 149, 245);
+            background: rgb(181, 181, 222);
             margin: 10px;
             font-weight: bold;
             font-size: 14px;
             color: #145294;
             &:hover {
-                box-shadow: 2px 3px 4px rgb(130, 207, 238);
+                box-shadow: 2px 3px 4px rgb(89, 98, 102);
                 transition: all 0.3s;
             }
         }
@@ -221,7 +221,7 @@ main {
         margin: 10px;
         width: 80%;
         gap: 10px;
-        background: linear-gradient(rgb(0, 119, 255) 25%, rgb(130, 188, 238));
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         border-radius: 5px;
         @media screen and (max-width: 500px) {
             width: 100%;
@@ -273,15 +273,15 @@ main {
             }   
             button {
                 cursor: pointer;
-                border: 1px dotted #144394;
+                border: 1px dotted #2f3339;
                 padding: 8px;
-                background: rgb(104, 120, 209);
+                background: rgb(141, 151, 210);
                 margin: 10px;
                 font-weight: bold;
                 font-size: 13px;
                 color: #142b94;
                 &:hover {
-                    box-shadow: 2px 3px 4px rgb(130, 168, 238);
+                    box-shadow: 2px 3px 4px rgb(39, 40, 44);
                     transition: all 0.2s;
                 }
             }
