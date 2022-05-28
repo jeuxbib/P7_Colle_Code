@@ -123,7 +123,7 @@ main {
     text-align: center;
     justify-content: center;
     background: white;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 16px;
     @media screen and (max-width: 450px) {
@@ -228,7 +228,7 @@ main {
     }
     &__post {
       background: white;
-      -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       @media screen and (max-width: 450px) {
         font-size: 13px;     

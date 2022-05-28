@@ -154,7 +154,7 @@ main {
     text-align: center;
     justify-content: center;
     background: white;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
     @media screen and (max-width: 450px) {
