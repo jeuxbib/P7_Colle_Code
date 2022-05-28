@@ -200,12 +200,12 @@ main {
           .button {
             cursor: pointer;
             height: 100%;
-            border: 1px dotted rgb(57, 57, 220);
+            border: 1px  rgb(57, 57, 220);
             padding: 8px;
-            background: rgb(215, 221, 243);
+            background: rgb(114, 142, 242);
             font-weight: bold;
             font-size: 14px;
-            color: blue;
+            color: rgb(245, 245, 248);
             border-radius: 5px;
             @media screen and (max-width: 450px) {
               font-size: 12px;     

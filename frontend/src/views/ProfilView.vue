@@ -199,15 +199,16 @@ main {
         }
         #label {
             cursor: pointer;
-            border: 1px dotted #111213;
+            border-style: groove;
+            border-radius: 8px;
             padding: 8px;
-            background: rgb(181, 181, 222);
+            background: rgb(114, 114, 178);
             margin: 10px;
             font-weight: bold;
             font-size: 14px;
-            color: #145294;
+            color: #f2f5f9;
             &:hover {
-                box-shadow: 2px 3px 4px rgb(89, 98, 102);
+                box-shadow: 2px 3px 4px rgb(22, 23, 23);
                 transition: all 0.3s;
             }
         }
@@ -246,7 +247,7 @@ main {
             }
             label {
                font-size: 14px;
-               color: white;
+               color: rgb(255, 255, 255);
                text-shadow: 1px 2px 2px black;
             }
             input {
@@ -255,8 +256,8 @@ main {
                 padding: 7px;
                 border-radius: 8px;
                 margin-bottom: 8px;
-                color: #144994;
-                background-color: rgb(250, 231, 234);
+                color: #064198;
+                background-color: rgb(231, 239, 250);
             }
             #error {
                 display: flex;
@@ -272,16 +273,16 @@ main {
                 width: 100%;
             }   
             button {
-                cursor: pointer;
-                border: 1px dotted #2f3339;
-                padding: 8px;
-                background: rgb(104, 120, 209);
-                margin: 10px;
-                font-weight: bold;
-                font-size: 13px;
-                color: #142b94;
+            border-style: groove;
+            border-radius: 8px;
+            padding: 8px;
+            background: rgb(114, 114, 178);
+            margin: 10px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #f2f5f9;
                 &:hover {
-                    box-shadow: 2px 3px 4px rgb(130, 168, 238);
+                    box-shadow: 2px 3px 4px rgb(37, 37, 37);
                     transition: all 0.2s;
                 }
             }
