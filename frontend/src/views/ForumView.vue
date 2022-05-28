@@ -142,7 +142,7 @@ main {
       border-radius: 12px;
       width: 60%;   
       margin: 20px 10px;
-      background: white;
+      background: linear-gradient(rgb(78, 79, 80) 25%, rgb(194, 200, 205));
       @media screen and (max-width: 860px) { 
         width: 80%; 
       }
@@ -227,7 +227,7 @@ main {
       }
     }
     &__post {
-      background: -webkit-linear-gradient(rgb(0, 119, 255) 25%, white);
+      background: white;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       @media screen and (max-width: 450px) {

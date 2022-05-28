@@ -1,12 +1,12 @@
 <template>
     <footer>
-        <a class="social" href="https://www.twitter.com" aria-label="logo twitter">
+        <a class="social" href="https://www.twitter.com" target="_blank" aria-label="logo twitter">
         <span class="fa fa-twitter icon-md"></span></a>
-        <a class="social" href="https://dribbble.com" aria-label="logo dribbble">
+        <a class="social" href="https://dribbble.com" target="_blank" aria-label="logo dribbble">
         <span class="fa fa-dribbble icon-md"></span></a>
-        <a class="social" href="https://fr-fr.facebook.com" aria-label="logo facebook">
+        <a class="social" href="https://fr-fr.facebook.com" target="_blank" aria-label="logo facebook">
         <span class="fa fa-facebook icon-md"></span></a>
-        <a class="social" href="https://www.instagram.com" aria-label="logo instagram">
+        <a class="social" href="https://www.instagram.com" target="_blank" aria-label="logo instagram">
         <span class="fa fa-instagram icon-md"></span></a>
     </footer>
 </template>

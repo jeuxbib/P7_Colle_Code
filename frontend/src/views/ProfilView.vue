@@ -174,7 +174,7 @@ main {
         width: 50%;   
         padding: 15px;
         margin: 20px 10px;
-        background: white;
+        background: linear-gradient(rgb(78, 79, 80) 25%, rgb(194, 200, 205));
         @media screen and (max-width: 770px) {
             width: 80%;
         }
@@ -275,13 +275,13 @@ main {
                 cursor: pointer;
                 border: 1px dotted #2f3339;
                 padding: 8px;
-                background: rgb(141, 151, 210);
+                background: rgb(104, 120, 209);
                 margin: 10px;
                 font-weight: bold;
                 font-size: 13px;
                 color: #142b94;
                 &:hover {
-                    box-shadow: 2px 3px 4px rgb(39, 40, 44);
+                    box-shadow: 2px 3px 4px rgb(130, 168, 238);
                     transition: all 0.2s;
                 }
             }
