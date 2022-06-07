@@ -51,7 +51,7 @@ export default {
 
 <style scoped lang="scss">
 main {
-  padding: 5.76em;
+  padding: 5em;
   @media screen and (max-width: 500px){
       padding: 5px;
     }

@@ -426,7 +426,7 @@ export default {
                 flex: 2;
                 #name {
                     background: -webkit-linear-gradient(rgb(61, 62, 63) 25%, rgb(159, 162, 164));
-                    -webkit-background-clip: text;
+                    background-clip: text;
                     -webkit-text-fill-color: transparent;
                     font-weight: bold;
                 }
